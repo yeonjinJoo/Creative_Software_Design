@@ -8,7 +8,10 @@ Animal::Animal(string _name, int _age){
   age = _age;
 }
 
-Zebra::Zebra(string _name, int _age, int _numStripes):Animal(_name, _age), numStripes(_numStripes){
+Zebra::Zebra(string _name, int _age, int _numStripes){
+  name = _name;
+  age = _age;
+  numStripes = _numStripes;
 }
 
 void Zebra::printZebra(){
